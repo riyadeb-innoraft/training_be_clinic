@@ -78,3 +78,7 @@
 .navbar:has(.navbar-toggler[aria-expanded="true"]) {
     background-color: rgba(80, 110, 113, 0.755) !important;
 }
+
+.test-class {
+    text-align: center;
+}
