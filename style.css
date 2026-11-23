@@ -1,0 +1,80 @@
+.white-btn {
+    transition: all 0.5s;
+}
+
+.white-btn:hover {
+    background-color: white;
+    color: rgb(74, 194, 241) !important;
+}
+
+.icon-hover-effect {
+    transition: all 0.5s;
+}
+
+.icon-hover-effect:hover {
+    color: rgb(74, 194, 241) !important;
+}
+
+.border-btn  {
+    border: 2px solid skyblue;
+}
+
+.highlighted-text {
+    color: rgb(74, 194, 241) !important;
+}
+
+.highlighted-btn {
+    transition: all 0.5s;
+}
+
+.highlighted-btn-text {
+    transition: all 0.5s;
+}
+
+.highlighted-btn:hover {
+    background-color: rgb(0, 89, 125);
+}
+
+.highlighted-btn:hover  .highlighted-btn-text {
+    color: white !important;
+}
+
+.overlap-card {
+    margin-top: -40px;
+}
+
+.text-accent {
+    transition: all 0.5s;
+}
+
+.text-accent:hover {
+    color: rgb(0, 27, 38) !important;
+}
+
+
+@media screen and (min-width: 992px)  {
+    .highlighted-phone-number {
+    font-size: 32px !important;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+    .text-xs {
+        font-size: 12px !important;
+    }
+
+    .text-sm{
+        font-size: 16px !important;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .border-removal {
+        border: none !important;
+    }
+}
+
+.navbar:has(.navbar-toggler[aria-expanded="true"]) {
+    background-color: rgba(80, 110, 113, 0.755) !important;
+}
